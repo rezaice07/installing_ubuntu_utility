@@ -1,3 +1,6 @@
+*****************************************************************************
+Installing Google Chrome on linux Ununtu 22.22 LTS
+*****************************************************************************
 #first you need to download the google chrome by using firefox default browser which already installed in the underlying ubuntu os
 Search Key "Download google chrome"
 
