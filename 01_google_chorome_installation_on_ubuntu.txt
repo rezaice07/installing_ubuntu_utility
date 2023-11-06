@@ -1,2 +1,11 @@
+#first you need to download the google chrome by using firefox default browser which already installed in the underlying ubuntu os
+Search Key "Download google chrome"
 
-dddd
+#then download it from the official website...
+
+#now change the directory to the download folder and use the below command..
+
+sudo dpkg -i google-chromeghlaghalg.deb
+
+#If there any dependency issue the use the below command to resolv...
+sudo apt install -f 
