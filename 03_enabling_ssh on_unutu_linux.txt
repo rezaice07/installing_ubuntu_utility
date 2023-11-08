@@ -1,4 +1,3 @@
-
 Enabling SSH on Unutu Linux	
 	
 #Upate packages
@@ -24,3 +23,13 @@ or you can use command: ifconfig
 
 #Now Connect to the ssh (22 port) using command
 ssh reja@192.168.68.101
+
+
+#Enabling SSH on Putty or windows powershell or command prompt when you using virtual box vm machine
+-Just go to virtual box and the select your virtual machine name
+-go to gear button and then click on network tab
+-see the tab adapter 1 and change attached to as Bridge Adapter
+-then go to advanced option below of this table section
+-change the promiscuous mode as allow all and then ok.
+
+Enjoy..... 
