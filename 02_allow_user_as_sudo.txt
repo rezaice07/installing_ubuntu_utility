@@ -1,0 +1,23 @@
+
+Error Message: reja is not in the sudoers file. This incident will be reported.
+
+#Switch to root user 
+su
+
+#and udpate packages
+apt update
+
+#Apt installation for sudo
+apt install sudo
+
+#Now give the sudo privilege to a user
+usermod -aG sudo reja
+
+#Now exit 
+exit
+
+#and restart the vm or os
+reboot
+
+#Now update apt
+sudo apt-get update
