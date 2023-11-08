@@ -1,1 +1,26 @@
 
+Enabling SSH on Unutu Linux	
+	
+#Upate packages
+sudo apt-get udpate
+
+#Install ssh server
+sudo apt install openssh-server
+
+#Check status and start the ssh server
+sudo systemctl status ssh
+
+sudo systemctl stop ssh
+
+Note: you can stop the server using command: sudo systemctl stop ssh
+
+#Allowing ssh on firewall
+sudo ufw allow ssh
+
+#Check ip address of the machine
+ip a
+
+or you can use command: ifconfig
+
+#Now Connect to the ssh (22 port) using command
+ssh reja@192.168.68.101
