@@ -4,7 +4,7 @@ Installing Mongodb on Linux ubuntu 22.04
 #Search by using installing mongodb on ubuntu 22.04
 
 #use the link below...
-https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-enterprise-on-ubuntu/
 
 
 #then select version, os and enterprise edition
